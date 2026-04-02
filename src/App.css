@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+.background{
+  background-color: rgb(236, 239, 239);
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logoName{
+  color: blue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.headerSection{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px;
+  background-color: rgb(41, 38, 21);
+  color: aliceblue;
+  padding-top: 20;
 }
 
-.App-link {
-  color: #61dafb;
+.centerHeader ul li{
+  list-style-type: none;
+  display: inline-flex;
+  margin: 0px 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul{
+  display: flex;
+}
+
+.tittle{
+  font-size: 1rem;
+}
+.leftHeader{
+  flex: 4;
+}
+
+.centerHeader{
+  flex: 4 ;
+}
+
+.search{
+  flex: 2;
+
+}
+.search input{
+  padding: 10px;
+  width: 20rem;
+  border-radius: 5px;
+  /* margin-left: -150px; */
+}
+.rightHeader{
+  flex: 4;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+.bannerBox{
+  margin: 10px 0px;
+}
+
+.bannerBox img{
+  width: 100%;
+
+}
+
+.menImage{
+  display: flex;
+  gap: 10px;
+}
+
+.menImage img{
+  width: 202px;
+  height: 220px;
+}
+.collectionSection{
+  margin-top: 10px;
+}
+
+.signin{
+  padding: 0px 10px;
+}
+
+.card{
+  padding: 0px 15px;
 }
